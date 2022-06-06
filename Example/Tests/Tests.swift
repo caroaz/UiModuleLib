@@ -1,5 +1,5 @@
 import XCTest
-import UiModuleLib
+//import UiModuleLib
 
 class Tests: XCTestCase {
     

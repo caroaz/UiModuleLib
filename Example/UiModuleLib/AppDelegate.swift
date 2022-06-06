@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  UiModuleLib
-//
-//  Created by caroaz on 06/06/2022.
-//  Copyright (c) 2022 caroaz. All rights reserved.
-//
+
 
 import UIKit
 

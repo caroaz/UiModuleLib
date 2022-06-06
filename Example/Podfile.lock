@@ -1,0 +1,16 @@
+PODS:
+  - UiModuleLib (0.1.0)
+
+DEPENDENCIES:
+  - UiModuleLib (from `../`)
+
+EXTERNAL SOURCES:
+  UiModuleLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UiModuleLib: 4281292cb54ef04c5671004022e7ee7ed0426107
+
+PODFILE CHECKSUM: b571d0f79302bee052e4494b7ee9bf1cd0449e8d
+
+COCOAPODS: 1.11.3
