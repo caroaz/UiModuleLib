@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UiModuleLib_Example' do
+  pod 'UiModuleLib', :path => '../'
+
+  target 'UiModuleLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
