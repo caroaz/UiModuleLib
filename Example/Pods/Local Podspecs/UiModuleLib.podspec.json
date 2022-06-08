@@ -16,7 +16,12 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "15.0"
   },
-  "source_files": "UiModuleLib/Classes/**/*"
+  "source_files": "UiModuleLib/Classes/**/*",
+  "resource_bundles": {
+    "Mybundle": [
+      "UiModuleLib/Assets/Assets.xcassets"
+    ]
+  }
 }

@@ -13,7 +13,8 @@ public class Cell: UITableViewCell{
     
     public  func prepare(){
         if !prepared{
-            
+           
+       
             contentView.addSubview(container)
             containerConf()
             configureNameLabel()
@@ -41,7 +42,8 @@ public class Cell: UITableViewCell{
     }
     public override func prepareForReuse() {
         super.prepareForReuse()
-        characterImageView.image = UIImage(named: "placeholder")
+        
+        characterImageView.image = ImageHelper.image(named: "placeholder")
         
     }
     
